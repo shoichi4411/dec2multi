@@ -5,7 +5,7 @@
  * This Program is MIT License
  */
 
-function dec2multi($str, $charlist = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ') {
+function dec2multi($str, $charlist = '0123456789abcdefghijklmnopqrstuvwxyzaABCDEFGHIJKLMNOPQRSTUVWXYZ') {
 	$charlen = strlen($charlist);
 
 	$dst = '';
@@ -16,7 +16,7 @@ function dec2multi($str, $charlist = '0123456789abcdefghijklmnopqrstuvwxyzABCDEF
 	return strval($dst);
 }
 
-function multi2dec($str, $charlist = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ') {
+function multi2dec($str, $charlist = '0123456789abcdefghijklmnopqrstuvwxyzaABCDEFGHIJKLMNOPQRSTUVWXYZ') {
 	$charlen = strlen($charlist);
 
 	$dst = 0;
