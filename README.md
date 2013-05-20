@@ -3,9 +3,6 @@
 ## 必要なもの
 ・PHPが動く環境  
 
-*X-SpamCleaner-Version: SpamCleaner 0.0.1 (2013-01-09)*  
-*X-SpamCleaner-Status: Clean*
-
 ## 使用方法
 ・$string = dec2multi($dec, $multiPattarn);
 
