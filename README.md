@@ -21,21 +21,28 @@
 ## 使用事例
 
 ・62進数
+
     echo dec2multi("1234567890"); // 1fnlCI
     echo '<br />';
     echo multi2dec("1fnlCI"); // 1234567890
     echo '<hr />';
+
 ・16進数
+
     echo dec2multi("1234567890", "0123456789abcdef"); // 499602d2
     echo '<br />';
     echo multi2dec("499602d2", "0123456789abcdef"); // 1234567890
     echo '<hr />';
+
 ・2進数
+
     echo dec2multi("1234567890", "01"); // 1001001100101100000001011010010
     echo '<br />';
     echo multi2dec("1001001100101100000001011010010", "01"); // 1234567890
     echo '<hr />';
+
 ・92進数
+
     echo dec2multi("1234567890", "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!#$%&()-=+*_[]{}@:;~^|/.,<>?"); // i_J+0
     echo '<br />';
     echo multi2dec("i_J+0", "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!#$%&()-=+*_[]{}@:;~^|/.,<>?"); // 1234567890
