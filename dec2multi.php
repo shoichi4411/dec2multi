@@ -17,6 +17,7 @@ function dec2multi($str, $charlist = '0123456789abcdefghijklmnopqrstuvwxyzaABCDE
 	return $dst;
 }
 
+
 function multi2dec($str, $charlist = '0123456789abcdefghijklmnopqrstuvwxyzaABCDEFGHIJKLMNOPQRSTUVWXYZ') {
 	$str = mb_convert_encoding($str, "SJIS-win", "UTF-8");
 	$charlist = mb_convert_encoding($charlist, "SJIS-win", "UTF-8");
