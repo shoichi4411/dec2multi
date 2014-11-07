@@ -5,7 +5,7 @@
  * This Program is MIT License
  */
 
-function dec2multi($str, $charlist = '0123456789abcdefghijklmnopqrstuvwxyzaABCDEFGHIJKLMNOPQRSTUVWXYZ') {
+function dec2multi($str, $charlist = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ') {
 	$charlist = mb_convert_encoding($charlist, "SJIS-win", "UTF-8");
 	$charlen = strlen($charlist);
 	$dst = '';
@@ -18,7 +18,7 @@ function dec2multi($str, $charlist = '0123456789abcdefghijklmnopqrstuvwxyzaABCDE
 }
 
 
-function multi2dec($str, $charlist = '0123456789abcdefghijklmnopqrstuvwxyzaABCDEFGHIJKLMNOPQRSTUVWXYZ') {
+function multi2dec($str, $charlist = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ') {
 	$str = mb_convert_encoding($str, "SJIS-win", "UTF-8");
 	$charlist = mb_convert_encoding($charlist, "SJIS-win", "UTF-8");
 	$charlen = strlen($charlist);
